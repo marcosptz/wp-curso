@@ -1,0 +1,68 @@
+.form-control, .form-control:focus {
+    background-color: #4a4a4a;
+    /* color: $white2;   */
+  }
+  
+.form-textarea {
+width: 750px !important;
+height: 200px !important;
+border-radius: 0;
+background-color: #FAFAFA;
+/* @media (max-width: 600px) {
+    width: 300px !important;
+    height: 80% !important;
+    }  */
+}
+  
+.wpcf7-submit {
+background: #e6ddd8;
+padding: 2% 8%;
+border: none;
+border-radius: 5px;
+
+color: #2A434C; 
+font-size: 1.5rem;
+font-weight: 700;
+float: right;
+margin-right: 7%;
+}
+
+.form-style {
+/* background-color: #52152F;
+border-color: #fff;
+border-top-width: 0;
+border-top-width: 0; 
+border-left-width: 0; 
+border-right-width: 0; 
+border-bottom-width: 1px; */
+background-color: transparent;
+border: 1px solid #e6ddd8 !important;
+border-top: 0 !important;
+border-left: 0 !important;
+border-right: 0 !important;
+border-radius: 0 !important;
+/* @media (max-width: 600px) {
+    input {
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    float: none;
+    }
+}  */
+}
+
+@media (max-width: 600px) {
+    .form-textarea{
+        width: 300px !important;
+        height: 80% !important;
+    }
+}
+
+@media (max-width: 600px) {
+    input {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        float: none;
+    }
+} 
